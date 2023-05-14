@@ -13,6 +13,11 @@
       <PackageReference Include="MetroSet_UI" Version="2.0.0" />
       <PackageReference Include="SQLite" Version="3.13.0" />
       <PackageReference Include="SQLite.CodeFirst" Version="1.7.0.34" />
+      <PackageReference Include="System.Data.OleDb" Version="8.0.0-preview.3.23174.8" />
+      <PackageReference Include="System.Data.SQLite" Version="1.0.117" />
+      <PackageReference Include="System.Data.SQLite.EF6" Version="1.0.117" />
+      <PackageReference Include="System.Data.SQLite.Linq" Version="1.0.117" />
+      <PackageReference Include="System.Data.SqlServerCe_unofficial" Version="4.0.8482.1" />
     </ItemGroup>
 
     <ItemGroup>
@@ -32,6 +37,12 @@
       <Reference Include="Zeroit.Framework.Metro">
         <HintPath>Libraries\Zeroit.Framework.Metro.dll</HintPath>
       </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Views\ErrorDialog.cs">
+        <SubType>Form</SubType>
+      </Compile>
     </ItemGroup>
 
 </Project>
