@@ -9,14 +9,29 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="EPPlus" Version="6.2.3" />
       <PackageReference Include="MetroSet_UI" Version="2.0.0" />
       <PackageReference Include="SQLite" Version="3.13.0" />
       <PackageReference Include="SQLite.CodeFirst" Version="1.7.0.34" />
-      <PackageReference Include="SqlServerCompact" Version="4.0.8854.1" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Libraries" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="CharmNotification">
+        <HintPath>Libraries\CharmNotification.dll</HintPath>
+      </Reference>
+      <Reference Include="HeaderTableLayoutPanel">
+        <HintPath>Libraries\HeaderTableLayoutPanel.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Windows.Forms.DataVisualization.MSChartExtension">
+        <HintPath>Libraries\System.Windows.Forms.DataVisualization.MSChartExtension.dll</HintPath>
+      </Reference>
+      <Reference Include="Zeroit.Framework.Metro">
+        <HintPath>Libraries\Zeroit.Framework.Metro.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
